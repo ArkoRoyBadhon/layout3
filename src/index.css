@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.GradientColor {
+  background: rgb(84, 157, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(84, 157, 205, 1) 0%,
+    rgba(103, 99, 168, 1) 100%
+  );
+}
+
+.GradientText {
+  color: linear-gradient(
+    90deg,
+    rgba(84, 157, 205, 1) 0%,
+    rgba(103, 99, 168, 1) 100%
+  );
+}
+
+.GradientBg:hover {
+  background: rgb(84, 157, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(84, 157, 205, 1) 0%,
+    rgba(103, 99, 168, 1) 100%
+  );
+  color: white;
+}
